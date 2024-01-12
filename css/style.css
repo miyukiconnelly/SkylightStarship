@@ -30,7 +30,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h2 {
-    font-size: 62px;
+    font-size: 60px;
+    font-size: 52px;
     font-weight: 600;
 }
 
@@ -150,6 +151,7 @@ button {
     padding: 2px 0 6px;
     padding: 1px 0 4px;
     padding: 3px 0 4px;
+    padding: 3px 0 6px;
     letter-spacing: .25px;
 
     display: flex;
@@ -281,7 +283,7 @@ section.hero {
     padding: 9rem 8rem;
     padding: 12rem 8rem;
     padding: 12% 8rem;
-    padding: 12% 7rem;
+    padding: 10% 7rem;
     position: relative;
     z-index: 1;
 }
@@ -333,7 +335,11 @@ section.hero {
     line-height: 1;
     margin-bottom: 1.5rem;
     margin-top: -1.75rem;
-    margin-top: -3rem;
+    margin-top: -1rem;
+
+    line-height: .75;
+    margin-bottom: 3rem;
+    color: #d5f7f9;
 }
 
 .page-subtitle {
@@ -349,12 +355,17 @@ section.hero {
     font-size: 280%;
     font-size: 260%;
     font-size: 240%;
-    font-size: 230%;
     font-weight: 400;
     letter-spacing: 0;
     /* line-height: 1.5; */
     text-transform: capitalize;
     font-family: 'Poppins', sans-serif;
+
+    font-size: 210%;
+    width: 90%;
+    font-size: 215%;
+    width: 90%;
+    margin: auto;
 }
 
 .hero-btn {
@@ -552,6 +563,7 @@ section.footer {
 .footer-title {
     color: #333;
     font-size: 22px;
+    font-size: 20px;
     font-weight: 600;
     font-family: 'EB Garamond', serif;
 }
@@ -663,3 +675,12 @@ section.footer p:last-child {
     margin-bottom: .375rem;
 }
 
+
+
+
+
+
+.section-header {
+    width: 80%;
+    margin: 0 auto 2.25rem 
+}
