@@ -133,7 +133,7 @@ button {
     box-shadow: 0 0px 8px rgb(0 0 0 / 20%);
     cursor: pointer;
     padding: 4px 0;
-    padding: 3px 0;
+    /* padding: 3px 0; */
 }
 
 .nav-site-title {
@@ -150,6 +150,7 @@ button {
     padding: 2px 0 6px;
     padding: 1px 0 4px;
     padding: 3px 0 4px;
+    letter-spacing: .25px;
 
     display: flex;
     justify-content: center;
@@ -211,6 +212,8 @@ button {
     padding: 7px 16px;
     padding: 6px 18px;
     padding: 5px 18px;
+    padding: 6px 20px;
+    font-size: 14px;
 }
 
 .nav-menu-item:hover {
@@ -224,6 +227,9 @@ button {
     color: #ffdb80;
     color: #ffd569;
     color: rgb(255 255 255 / 95%);
+    color: #dfdfdf;
+    color: #e8eaea;
+    color: #ddd;
     /* color: #ffdd9c; */
     background-color: #4f739d;
     background-color: #496e99;
@@ -254,7 +260,7 @@ button {
     background-image: url(../assets/images/tatiana-zhukova-wVRrpDI6qB0-unsplash.jpg);
     background-image: url(../assets/images/tatiana-zhukova-wVRrpDI6qB0-unsplash2.jpg);
     background-image: linear-gradient(0deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url(../assets/developer/louise-viallesoubranne-OtO5I2R_494-unsplash.jpg);
-    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.45)), url(../assets/developer/louise-viallesoubranne-OtO5I2R_494-unsplash.jpg);
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.45)), url(../assets/images/louise-viallesoubranne-OtO5I2R_494-unsplash.jpg);
     
     background-size: cover;
 }
@@ -514,6 +520,7 @@ section.footer {
     /* margin-bottom: 4rem; */
     padding: 1rem 3rem;
     padding: 1.5rem 3rem;
+    padding: 1.5rem 3rem 1.3rem;
     text-align: center;
 
     background-color: #6998c6;
