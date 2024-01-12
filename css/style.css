@@ -25,8 +25,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h2 {
-    font-size: 48px;
-    font-weight: 600;
+    font-size: 50px;
+    font-weight: 500;
 }
 
 h3 {
@@ -88,18 +88,24 @@ button {
     padding: 4px 0;
 }
 
-.nav-site-title {
+.nav-title-link:hover {
+    text-decoration: none;
+    opacity: .9;
+}
+
+.nav-title {
     border: 1px solid rgb(255 255 255 / 35%);
     border-left: 0;
     border-right: 0;
     color: rgb(255 255 255 / 90%);
     font-size: 24px;
     font-weight: 500;
-    padding: 3px 0 6px;
+    padding: 2px 0 6px;
     letter-spacing: .25px;
 
     display: flex;
     justify-content: center;
+    transition: all .3s ease;
 }
 
 .nav-menu {
@@ -120,22 +126,23 @@ button {
     padding: 6px 20px;
 }
 
-.nav-menu-item:hover {
+.nav-menu-item:hover, .nav-menu-item.active {
     color: #ddd;
     background-color: rgba(0, 0, 0, .12);
+    text-decoration: none;
 }
 
 /*=*=*=*=*=*=*=*=*(🐸) sections (🐸)*=*=*=*=*=*=*=*=*/
 .section-container {
     margin: 0 auto;
-    max-width: 1024px;
-    padding: 6rem;
+    max-width: 840px;
+    padding: 6rem 0;
 }
 
 .section-header {
     margin: 0 auto 2.25rem;
     text-align: center;
-    width: 75%;
+    width: 70%;
 }
 
 .section-title {
@@ -160,9 +167,14 @@ button {
 
 section.panorama-landing .section-container {
     text-align: center;
-    padding: 9% 7rem;
+    padding: 9% 0;
     position: relative;
     z-index: 1;
+}
+
+.panorama-landing-header {
+    max-width: 720px;
+    margin: 0 auto;
 }
 
 .page-title {
@@ -184,7 +196,7 @@ section.panorama-landing .section-container {
     margin: auto;
     text-shadow: 1px 1px 10px rgb(0 0 0 / 40%);
     text-transform: capitalize;
-    width: 90%;
+    /* width: 90%; */
 }
 
 .panorama-landing-btn {
@@ -294,7 +306,11 @@ section.footer .section-container {
 
     margin: auto;
     max-width: 1024px;
-    padding: 1.5rem;
+    padding: 1.5rem 0;
+}
+
+.footer-page-title-link:hover {
+    text-decoration: none;
 }
 
 .footer-page-title {
